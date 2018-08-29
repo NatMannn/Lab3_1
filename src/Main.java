@@ -5,8 +5,8 @@ public class Main {
 
         String input = JOptionPane.showInputDialog("ใส่ตัวเลข 1 ตัวนะ","0");
         JOptionPane.showMessageDialog(null,input,"title",JOptionPane.INFORMATION_MESSAGE);
-        int ans = JOptionPane.showConfirmDialog(null,"รักหรือเปล่าจ๊ะ",
-                "ถาามเธอไงจะใครล่ะ",JOptionPane.YES_NO_OPTION);
+        int ans = JOptionPane.showConfirmDialog(null,"เธอรักหรือเปล่าจ๊ะ",
+                "ถามเธอไงจะใครล่ะ",JOptionPane.YES_NO_OPTION);
         if(ans==JOptionPane.YES_OPTION){
             JOptionPane.showMessageDialog(null,"รักนะจุ๊บๆอิอิคิคิ");
         }else{
